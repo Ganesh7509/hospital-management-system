@@ -1,0 +1,45 @@
+.hospital-register-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  background-color: #f1fdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 128, 128, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hospital-register-container h2 {
+  text-align: center;
+  color: #00695c;
+  margin-bottom: 20px;
+}
+
+.hospital-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hospital-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hospital-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hospital-form button:hover {
+  background-color: #00796b;
+}

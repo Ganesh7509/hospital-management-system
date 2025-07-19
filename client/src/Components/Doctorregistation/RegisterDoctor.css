@@ -1,0 +1,44 @@
+.doctor-register-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f0fdfa;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.doctor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.doctor-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.doctor-form input,
+.doctor-form select {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.doctor-form button {
+  padding: 12px;
+  background-color: #00897b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.doctor-form button:hover {
+  background-color: #00695c;
+}
